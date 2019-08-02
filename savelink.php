@@ -17,5 +17,4 @@ $c = base64_decode($b[1]);
 $d = explode('url=', $c);
 $e = base64_decode($d[1]);
 echo "link download : $e\n"; 
-
 ?>
